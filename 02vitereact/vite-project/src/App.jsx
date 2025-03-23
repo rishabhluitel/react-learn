@@ -7,13 +7,13 @@ function App() {
   let [counter, setCounter] = useState(5);
   const addValue = () => {
     // counter = counter + 1;
-    if (counter<20){
+    if (counter < 20) {
       setCounter(counter + 1);
     }
     // console.log(counter);
   };
   const subValue = () => {
-    if (counter>0){
+    if (counter > 0) {
       setCounter(counter - 1);
     }
   };
